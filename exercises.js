@@ -12,8 +12,9 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 */
 
 for(var i = 1; i<21; i++){
-  console.log("Now serving " + i);
+  console.log("Now serving number " + i);
 }
+
 
 
 /* 2) Pop Charts
@@ -149,6 +150,15 @@ down
 nope
 turn
 */
+for(var i = oopsArray.length -1; i>=0; i--){
+  console.log(oopsArray[i]);
+
+}
+
+
+
+
+
 
 
 /* 9) Siesta Time
@@ -160,6 +170,32 @@ Next, write a function named `nap`. This function takes in a single parameter: `
 
 Inside of this function write a for-loop that will iterate through the `napSchedule` array and console.log the message: `ZzZzZzZz` if the schedule is `true`, otherwise the it will console.log the message: `Gotta get coding!` if the schedule is `false`.
 */
+
+
+// var napSchedule = [false, false, true, false, true, true];
+
+// function nap(schedule){
+//   for(var i = 0; i,schedule.length; i++){
+//     if
+// }
+
+
+
+
+
+// var napSchedule = [false, false, true, false, true, true];
+
+// function nap(schedule){
+//   for(var i = 0; i<schedule.length; i++){
+//    if(schedule[i] === true){
+//     console.log("ZzZzZzZz");
+//    }else{
+//     console.log("Gotta get coding!");
+//    } 
+//   }
+// }
+
+// nap(napSchedule);
 
 
 
